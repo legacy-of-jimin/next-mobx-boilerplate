@@ -35,6 +35,7 @@ yarn build && yarn start
 **pages**
 - pages 폴더의 파일또는 폴더는 url로 매칭됩니다.
 - 예) posts 폴더 내부의 detail 파일 -> /post/detail
+
 **_app.js**
 - _app.js는 react의 App.js와 같은 역할입니다. (즉 최상단 component)
 - _app.js 에서 `componentDidCatch` life-cycle을 사용해 render 에러 발생시 빈화면이 보여지지 않도록 막아줍니다.
