@@ -4,6 +4,8 @@ import { initStore } from '@/stores'
 
 import Footer from '@/components/footer'
 
+import '@/styles/common.scss'
+
 export default ComposedComponent => {
   return class WithData extends Component {
     static async getInitialProps(ctx) {
